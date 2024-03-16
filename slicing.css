@@ -1,0 +1,501 @@
+*{
+    font-family: 'Poppins';
+    margin: 0px;
+}
+@media screen and (min-width: 1280px) {
+    .navbar{
+        background-color: #D9D9D9;
+        width: 100%;
+        text-align: center;
+    }
+    li{
+        display: inline;
+        padding: 15px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .container1 h1{
+        text-align: center;
+        padding: 40px;
+        font-size: 40px;
+    }
+    .container2{
+        display: flex;
+        justify-content: center;
+        gap: 27px;
+    }
+    .tentara{
+        width: 490px;
+        height: 180px;
+        background-color: #D5FFDD;
+        border-radius: 20px;
+    }
+    .tentara img{
+        margin-top: -48px;
+        float: left;
+    }
+    .tentara h2{
+        font-size: 32px;
+        font-weight: lighter;
+        padding-top: 40px;
+        margin: -140px 0px 0px 0px;
+    }
+    .tentara button{
+        margin: 80px 0px 0px 0px;
+        padding: 4px 70px;
+        border-radius: 15px;
+        font-size: 20px;
+        background-color: #399349;
+        color: white;
+        border: none;
+        transform: translate(0%,110%);
+    }
+    .box2{
+        padding-top: 30px;
+    }
+    .box21{
+        float: left;
+        padding-right: 27px;
+    }
+    .nelayan{
+        width: 235px;
+        height: 180px;
+        background-color: #FFF4DC;
+        border-radius: 20px;
+    }
+    .nelayan img{
+        width: 173.7px;
+        height: 170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        display: block;
+    }
+    .nelayan button{
+        margin-left: auto;
+        margin-top: auto;
+        padding: 4px 40px;
+        border-radius: 15px;
+        font-size: 20px;
+        background-color: #E29A00;
+        color: white;
+        border: none;
+        transform: translate(18%, -120%);
+    }
+    .pramugari{
+        width: 235px;
+        height: 180px;
+        background-color: #FFCED7;
+        border-radius: 20px;
+        margin-top: 32px;
+    }
+    .pramugari img{
+        width: 170px;
+        height: 170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 12px;
+        display: block;
+    }
+    .pramugari button{
+        margin-left: auto;
+        margin-top: auto;
+        padding: 4px 40px;
+        border-radius: 15px;
+        font-size: 20px;
+        background-color: #FF5573;
+        color: white;
+        border: none;
+        transform: translate(18%, -125%);
+    }
+    .fotografer{
+        float: left;
+        width: 230px;
+        height: 392px;
+        background-color: #E2F2FF;
+        border-radius: 20px;
+    }
+    .fotografer img{
+        width: 160px;
+        height: 160px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+        display: block;
+    }
+    .fotografer h3{
+        text-align: center;
+        font-size: 20px;
+        font-weight: lighter;
+        padding-top: 10px;
+        margin: -140px 0px 0px 0px;
+    }
+    .fotografer p{
+        text-align: center;
+        font-size: 12px;
+        font-weight: lighter;
+        padding-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .fotografer button{
+        margin: 100px 0px 0px 0px;
+        padding: 4px 40px;
+        border-radius: 15px;
+        font-size: 20px;
+        background-color: #3279AF;
+        color: white;
+        border: none;
+        transform: translate(16%, 40%);
+    }
+    .box3{
+        background-color: #F4F4F4;
+        width: 500px;
+        height: 392px;
+        border-radius: 20px;
+    }
+    .box3 .dokter{
+        width: 423px;
+        height: 96px;
+        background-color: white;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 34px;
+        border-radius: 20px;
+        position: absolute;
+        border-color: #D8D6C1;
+        border-style: solid;
+        border-width: 1px;
+    }
+    .dokter img{
+        width: 70px;
+        height: 70px;
+        margin-left: 15px;
+        margin-top: 15px;
+        float: left;
+    }
+    .dokter h3{
+        font-size: 20px;
+        font-weight: lighter;
+        padding-top: 28px;
+        padding-left: 90px;
+    }
+    .dokter button{
+        background-color: #D8D6C1;
+        color: white;
+        border-radius: 15px;
+        border: none;
+        font-size: 12px;
+        margin-right: 15px;
+        padding: 2px 50px;
+        margin-left: 5px;
+    }
+    .box3 .pilot{
+        width: 423px;
+        height: 96px;
+        background-color: white;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 148px;
+        border-radius: 20px;
+        position: absolute;
+        border-color: #D8D6C1;
+        border-style: solid;
+        border-width: 1px;
+    }
+    .pilot img{
+        width: 70px;
+        height: 70px;
+        margin-left: 15px;
+        margin-top: 15px;
+        float: left;
+    }
+    .pilot h3{
+        font-size: 20px;
+        font-weight: lighter;
+        padding-top: 28px;
+        padding-left: 90px;
+    }
+    .pilot button{
+        background-color: #D8D6C1;
+        color: white;
+        border-radius: 15px;
+        border: none;
+        font-size: 12px;
+        margin-right: 15px;
+        padding: 2px 50px;
+        margin-left: 5px;
+    }
+    .box3 .ilmuan{
+        width: 423px;
+        height: 96px;
+        background-color: white;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 262px;
+        border-radius: 20px;
+        position: absolute;
+        border-color: #D8D6C1;
+        border-style: solid;
+        border-width: 1px;
+    }
+    .ilmuan img{
+        width: 70px;
+        height: 70px;
+        margin-left: 15px;
+        margin-top: 15px;
+        float: left;
+    }
+    .ilmuan h3{
+        font-size: 20px;
+        font-weight: lighter;
+        padding-top: 28px;
+        padding-left: 90px;
+    }
+    .ilmuan button{
+        background-color: #D8D6C1;
+        color: white;
+        border-radius: 15px;
+        border: none;
+        font-size: 12px;
+        margin-right: 15px;
+        padding: 2px 50px;
+        margin-left: 5px;
+    }
+    .box4{
+        background-color: #F2F2F2;
+        width: 500px;
+        height: 181px;
+        border-radius: 20px;
+        margin-top: 29px;
+        display: flex;
+    }
+    .pembalap{
+        width: 230px;
+        height: 120px;
+        margin: 30px 15px 30px 14px;
+    }
+    .pembalap img, .astronot img{
+        width: 120px;
+        height: 120px;
+        margin-left: 15px;
+        float: left;
+    }
+    .pembalap h3, .astronot h3{
+        font-size: 15px;
+        font-weight: lighter;
+        margin-top: 35px;
+    }
+    .pembalap button, .astronot button{
+        background-color: #D8D6C1;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        font-size: 15px;
+        padding: 15px 10px;
+        margin-top: 8px;
+    }
+    .box4 .astronot{
+        width: 230px;
+        height: 120px;
+        margin: 30px 14px 30px 0px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 1279px) {
+    .navbar{
+        background-color: #D9D9D9;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        position: fixed;
+        bottom: 0px;
+        z-index: 1;
+    }
+    li{
+        display: inline;
+        padding: 15px;
+        text-align: center;
+        line-height: 50px;
+    }
+    h1{
+        text-align: center;
+        font-size: 32px;
+        margin-top: 30px;
+    }
+    .tentara{
+        width: 289px;
+        height: 289px;
+        background-color: #D5FFDD;
+        border-radius: 20px;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+    .tentara img{
+        width: 230px;
+        height: 230px;
+        margin: -50px 30px;
+        float: left;
+    }
+    .tentara button{
+        background-color: #399349;
+        color: white;
+        border-radius: 15px;
+        border: none;
+        font-size: 20px;
+        padding: 7px 60px;
+        transform: translate(17%, 80%);
+    }
+    .tentara h2{
+        font-size: 24px;
+        font-weight: lighter;
+        margin: 40px 0px 0px 95px;
+        padding: 0px;
+    }
+    .tentara p{
+        font-size: 14px;
+        margin: 2px 0px 0px 75px;
+    }
+    .nelayan{
+        background-color: #FFF4DC;
+        width: 288.53px;
+        height: 221px;
+        border-radius: 20px;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .nelayan img{
+        width: 213.26px;
+        height: 208.72px;
+        margin: 12px 0px 0px 40px;
+    }
+    .nelayan button{
+        background-color: #E29A00;
+        color: white;
+        border-radius: 15px;
+        border: none;
+        font-size: 20px;
+        padding: 7px 60px;
+        transform: translate(17%, -140%);
+    }
+    .pramugari{
+        width: 289px;
+        height: 239.85px;
+        background-color: #FFCED7;
+        border-radius: 20px;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .pramugari img{
+        width: 209.06px;
+        height: 226.53px;
+        margin: 16px 0px 0px 40px;
+    }
+    .pramugari button{
+        background-color: #FF5573;
+        color: white;
+        border-radius: 15px;
+        border: none;
+        font-size: 20px;
+        padding: 7px 60px;
+        transform: translate(17%, -140%);
+    }
+    .fotografer{
+        width: 289px;
+        height: 314px;
+        background-color: #E2F2FF;
+        border-radius: 20px;
+        margin: 0 auto;
+        margin-top: 90px;
+    }
+    .fotografer img{
+        width: 230px;
+        height: 230px;
+        margin: -36px 0px 0px 30px;
+    }
+    .fotografer button{
+        background-color: #3279AF;
+        color: white;
+        border-radius: 15px;
+        border: none;
+        font-size: 20px;
+        padding: 7px 60px;
+        transform: translate(17%, -80%);
+    }
+    .fotografer h3{
+        font-size: 24px;
+        font-weight: lighter;
+        margin: -25px 0px 0px 80px;
+    }
+    .fotografer p{
+        font-size: 14px;
+        margin: 2px 45px 0px 45px;
+        text-align: center;
+    }
+    .dokter, .pilot, .ilmuan{
+        width: 289px;
+        height: 223px;
+        background-color: #E9E8E2;
+        border-radius: 20px;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .dokter img, .pilot img, .ilmuan img{
+        width: 213px;
+        height: 213px;
+        margin: 12px 0px 0px 30px;
+    }
+    .dokter button, .pilot button, .ilmuan button{
+        background-color: #CAC8B3;
+        color: white;
+        border-radius: 15px;
+        border: none;
+        font-size: 20px;
+        padding: 7px 60px;
+        transform: translate(17%, -140%);
+    }
+    .dokter h3, .pilot h3, .ilmuan h3{
+        display: none;
+    }
+    .pembalap{
+        width: 289px;
+        height: 221px;
+        background-color: #FFDBC5;
+        border-radius: 20px;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .pembalap img, .astronot img{
+        width: 213px;
+        height: 213px;
+        margin: 10px 0px 0px 40px;
+    }
+    .pembalap button{
+        background-color: #E36415;
+        color: white;
+        border-radius: 15px;
+        border: none;
+        font-size: 20px;
+        padding: 7px 60px;
+        transform: translate(17%, -150%);
+    }
+    .pembalap h3, .astronot h3{
+        display: none;
+    }
+    .astronot{
+        width: 289px;
+        height: 221px;
+        background-color: #8FC5ED;
+        border-radius: 20px;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .astronot button{
+        background-color: #275E87;
+        color: white;
+        border-radius: 15px;
+        border: none;
+        font-size: 20px;
+        padding: 7px 60px;
+        transform: translate(17%, -140%);
+    }
+}
